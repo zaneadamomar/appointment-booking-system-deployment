@@ -770,7 +770,7 @@ BEGIN
     END;
 
     /* Create booking */
-    SET @BookingId = NEWSEQUENTIALID();
+    SET @BookingId = NEWID();
 
     INSERT INTO dbo.Bookings
     (
